@@ -180,48 +180,6 @@ const Dashboard: React.FC = () => {
         )}
       </div>
 
-      {/* System Status */}
-      <div className="bg-white rounded-lg shadow-sm border p-6">
-        <div className="flex items-center justify-between mb-4">
-          <h3 className="text-lg font-semibold text-gray-900">System Status</h3>
-          <div className="flex items-center space-x-2">
-            <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-            <span className="text-sm text-gray-600">All systems operational</span>
-          </div>
-        </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="flex items-center space-x-3 p-3 bg-green-50 rounded-lg">
-            <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-              <MdLocationOn className="w-4 h-4 text-green-600" />
-            </div>
-            <div>
-              <p className="text-sm font-medium text-gray-900">Parking Sensors</p>
-              <p className="text-xs text-gray-600">All online</p>
-            </div>
-          </div>
-          
-          <div className="flex items-center space-x-3 p-3 bg-green-50 rounded-lg">
-            <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-              <MdAccessTime className="w-4 h-4 text-green-600" />
-            </div>
-            <div>
-              <p className="text-sm font-medium text-gray-900">Payment System</p>
-              <p className="text-xs text-gray-600">Operational</p>
-            </div>
-          </div>
-          
-          <div className="flex items-center space-x-3 p-3 bg-green-50 rounded-lg">
-            <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-              <MdWarning className="w-4 h-4 text-green-600" />
-            </div>
-            <div>
-              <p className="text-sm font-medium text-gray-900">Notifications</p>
-              <p className="text-xs text-gray-600">Active</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
